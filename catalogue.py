@@ -14,7 +14,7 @@ app = Flask(__name__)
 def video_page(video):
     print (video)
 
-    url = 'http://http://35.242.140.174/videos?filter={"video.file":"'+video+'"}'
+    url = 'http://35.242.140.174/videos?filter={"video.file":"'+video+'"}'
     headers = {}
     payload = json.dumps({ })
     print (request.endpoint)
@@ -42,7 +42,7 @@ def video_page(video):
 
 @app.route('/')
 def cat_page():
-    url = "http://http://35.242.140.174/myflix/videos"
+    url = "http://35.242.140.174/myflix/videos"
     headers = {}
     payload = json.dumps({ })
 
