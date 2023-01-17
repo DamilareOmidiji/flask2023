@@ -77,7 +77,7 @@ def cat_page():
               html=html+'<h3>'+name+'</h3>'
               ServerIP=request.host.split(':')[0]
               html=html+'<a href="http://'+ServerIP+'/Video/'+file+'">'
-              html=html+'<img src="storage.googleapis.com/daminetflix/myflixmedia/pics/'+thumb+'" width="320" height="240">'
+              html=html+'<img src="https://storage.googleapis.com/daminetflix/myflixmedia/pics/'+thumb+'" width="320" height="240">'
               html=html+"</a>"        
               print("=======================")
 
